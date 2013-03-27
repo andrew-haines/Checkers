@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jnlp spec="1.0+" codebase="" href="">
+    <information>
+        <title>Checkers Assignment</title>
+        <vendor>Andrew Haines</vendor>
+    </information>
+    <resources>
+        <!-- Application Resources -->
+        <j2se version="1.6+"
+            href="http://java.sun.com/products/autodl/j2se" />
+        <jar href="checkers-ui.jar" main="true" />
+
+    </resources>
+    <applet-desc 
+         name="Checkers Assignment"
+         main-class="com.haines.ist.checkers.ui.CheckersApplet"
+         width="770"
+         height="800">
+     </applet-desc>
+     <update check="background"/>
+</jnlp>                  
